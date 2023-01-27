@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel=”stylesheet” href=”/path/to/cdn/bootstrap-icons.min.css” />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- top navbar starts here -->
+  <div class="top-navbar ">
+    <div class="topbar">
+      <div class="row align-items-center px-1 ">
+        <div class="col-lg-2 colw col-md-2  d-flex align-items-center ">
+          <img src="LOGO.png" class="logo " /><span>Sierra</span>
+        </div>
+        <!-- searchbar -->
+        <div class=" searchbar">
+           <div class="form  align-items-center ">
+            <div class="d-flex">
+              <i class="fa fa-search "></i>
+              <input type="search" class="form-control form-input " placeholder="Search ">
+            </div>
+          </div>
+        </div>
+        <!-- user -->
+        <div class="col-lg-2 col-md-2">
+          <div class="profile float-end ">
+            <nav class="navbar d-flex " id="profile">
+              <ul class="nav navbar-nav align-items-center  flex-row ">
+
+                <li class="nav-item fw-600 "> Hey Susie!</li>
+                <li class="dropdown nav-item">
+
+                  <a class="nav-item nav-link " href="#" data-toggle="dropdown">
+
+                    <img src="user.jpg" style="max-width:30px; border-radius:50%;" /><i
+                      class="fas fa-chevron-down ps-2 opacity-25"></i>
+                  </a>
+
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- sidebar -->
+
+  <div class="row h-100 ">
+    <div class="col-lg-2 col-md-2 sidebar">
+
+      <div id="sidebar">
+        <nav class='mt-2 mx-2'>
+          <ul>
+            <li><a href="#" class="text-white"><i class="fa fa-bars pe-3"></i> Menu</a></li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa fa-house-chimney "></i> Home</a></li>
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa fa-search"></i> Search</a></li>
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="far fa-star"></i> App</a></li>
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa fa-globe"></i> Funnels</a></li>
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-regular fa-clock"></i> Automation</a></li>
+
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa  fa-bullhorn"></i> Campaigns</a></li>
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-regular fa-address-card"></i> Contacts</a></li>
+            <li class="sub-menu dropdown"><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa fa-user-group"></i> Users</a></li>
+
+
+            <li class='sub-menu dropdown'><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa fa-money-check-dollar"></i> Deals</a>
+              <ul id="subm" class="dropdown-menu">
+                <li><a href='#'>Inbox</a></li>
+                <li><a href='#'>Opportunities</a></li>
+                <li><a href='#'>Leads</a></li>
+                <li><a href='#'>Contacts</a></li>
+                <li><a href='#'>Email Sequences</a></li>
+                <li><a href='#'>Reporting</a></li>
+                <li><a href='#'>Preferences</a></li>
+              </ul>
+            </li>
+            <li class='sub-menu dropdown'><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-solid fa-graduation-cap"></i> Courses</a>
+              <!-- <ul id="subm" class="dropdown-menu"></ul> -->
+            </li>
+            <li class='sub-menu dropdown'><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-regular fa-file-video"></i> Webinar</a>
+              <!-- <ul id="subm" class="dropdown-menu"> </ul> -->
+            </li>
+
+            <li class='sub-menu dropdown'><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-solid fa-share-nodes"></i> Affliates</a>
+              <!-- <ul id="subm" class="dropdown-menu"></ul> -->
+            </li>
+            <li class='sub-menu dropdown'><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-solid fa-chart-column"></i> Reports</a>
+              <!-- <ul id="subm" class="dropdown-menu"></ul> -->
+            </li>
+            </li>
+            <li class='sub-menu dropdown'><a href='#' data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-regular fa-folder-closed"></i> Files</a>
+              <!-- <ul id="subm" class="dropdown-menu"></ul> -->
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+    <!-- breadcrumb -->
+    <div class="col-lg -8 col-md-8 px-0">
+      <div class="breadcrumbbar  text-left">
+
+
+        <ol class="breadcrumb  container-fluid text-dark  ">
+          <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item active" aria-curent="page">Leads</li>
+        </ol>
+      </div>
+
+      <div class=" main-content h-100 p-4">
+        <!-- heading -->
+        <div class="heading ">
+          <h2 class="my-3"><span class="fw-lighter">Leads</span> working outbound prospects</h2>
+
+        </div>
+        <!-- button group -->
+        <div class="row">
+          <div class="col-lg-6 mt-2">
+            <span class=" fw-lighter">1428 results</span>
+          </div>
+          <div class="col-lg-6 mb-2">
+            <div class="contain  d-flex justify-content-end">
+              <div class="btn-group dropdown">
+                <button class="btn  btn-md " type="button"> <i class="fa fa-envelope"></i> Email
+                </button>
+                <button class="btn  btn-md dropdown-toggle-split" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa-solid fa-chevron-down"></i>
+                </button>
+              </div>
+              <div class="btn-group dropdown">
+                <button class="btn  btn-md " type="button"><i class="fa fa-phone"></i>
+                  Call
+                </button>
+                <button class="btn  btn-md dropdown-toggle-split" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa-solid fa-chevron-down"></i>
+                </button>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-md  dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-mdb-toggle="dropdown" aria-expanded="false"><i class="fa fa-pen"></i>
+                  Edit
+                </button>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-md  dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-mdb-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-bookmark"></i>
+                  Save View
+                </button>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-md  dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-mdb-toggle="dropdown" aria-expanded="false"><i class="fa fa-download"></i>
+                  Export
+                </button>
+              </div>
+              <div class=" btn-group dropdown">
+                <button class="btn btn-md " type="button"><i class="fa-solid fa-filter"></i> Sort By
+                </button>
+                <button class="btn  btn-md dropdown-toggle-split " type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa-solid fa-chevron-down"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" rounded table-responsive  ">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>
+                  <div class="row"><div class="col-lg-7 pe-0"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Contact
+                  </a></div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div> </div>
+                 
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Created
+                  </a>
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Status
+                  </a>
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Lead Score
+                  </a>
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Source
+                  </a>
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Last Sent Email Date
+                  </a>
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    # Received Emails
+                  </a>
+
+                </th>
+                <th>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Opp. Value
+                  </a>
+
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <div class="row"><div class="col-lg-7 pe-0">Amelia Edwards</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div> </div> </td>
+                <td>6 minutes ago</td>
+                <td>Contact </td>
+                <td>TBD </td>
+                <td>susiecarder.com </td>
+                <td>12 seconds ago </td>
+                <td>0 emails </td>
+                <td>$2,497 </td>
+              </tr>
+              <tr>
+                <td> <div class="row"><div class="col-lg-7 pe-0">Hironaka Hiroe</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>9 minutes ago </td>
+                <td>Lead </td>
+                <td>82 </td>
+                <td>facebook.com </td>
+                <td>34 seconds ago</td>
+                <td>1 email </td>
+                <td>$9,997 </td>
+              </tr>
+              <tr>
+                 <td> <div class="row"><div class="col-lg-7 pe-0">Ahmad Nazeri</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>16 minutes ago </td>
+                <td>Lead </td>
+                <td>63 </td>
+                <td>instagram.com </td>
+                <td>5 minutes ago </td>
+                <td>0 emails </td>
+                <td>$4,997 </td>
+              </tr>
+              <tr>
+              <td> <div class="row"><div class="col-lg-7 pe-0">Alicia Puma</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>25 minutes ago </td>
+                <td>Lead </td>
+                <td>54 </td>
+                <td>facebook.com </td>
+                <td>45 minutes ago </td>
+                <td>0 emails </td>
+                <td>$4,997 </td>
+              </tr>
+              <tr>
+                <td> <div class="row"><div class="col-lg-7 pe-0">Edward Lindgren</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>36 minutes ago </td>
+                <td>Contact </td>
+                <td>TBD </td>
+                <td>susiecarder.com </td>
+                <td>3 hours ago </td>
+                <td>0 emails </td>
+                <td>$2,497 </td>
+              </tr>
+              <tr>
+          <td> <div class="row"><div class="col-lg-7 pe-0">Juan Jose Esteve</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>48 minutes ago </td>
+                <td>Contact </td>
+                <td>TBD </td>
+                <td>susiecarder.com </td>
+                <td>4 hours ago </td>
+                <td>0 emails </td>
+                <td>$2,497 </td>
+              </tr>
+              <tr>
+              <td> <div class="row"><div class="col-lg-7 pe-0">Yeray Rosales</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>48 minutes ago </td>
+                <td>Contact </td>
+                <td>TBD </td>
+                <td>susiecarder.com </td>
+                <td>23 hours ago </td>
+                <td>0 emails </td>
+                <td>0 emails </td>
+              </tr>
+              <tr>
+            <td> <div class="row"><div class="col-lg-7 pe-0">Gladys Kanyinda</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>48 minutes ago </td>
+                <td>Deal </td>
+                <td>96 </td>
+                <td>instagram.com </td>
+                <td>1 day ago </td>
+                <td>0 emails </td>
+                <td>$4,997 </td>
+              </tr>
+              <tr>
+        <td> <div class="row"><div class="col-lg-7 pe-0">Alicia Puma </div><div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>1 hour ago </td>
+                <td>Deal </td>
+                <td>84 </td>
+                <td>facebook.com </td>
+                <td>12 days ago </td>
+                <td>1 email </td>
+                <td>$4,997 </td>
+              </tr>
+              <tr>
+            <td> <div class="row"><div class="col-lg-7 pe-0">Mattie Blooman</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>9 minutes ago </td>
+                <td>Lead </td>
+                <td>82 </td>
+                <td>facebook.com </td>
+                <td>34 seconds ago</td>
+                <td>1 email </td>
+                <td>$9,997 </td>
+              </tr>
+              <tr>
+                <td> <div class="row"><div class="col-lg-7 pe-0">Winny Rearie</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>1 hour ago </td>
+                <td>Deal </td>
+                <td>84 </td>
+                <td>facebook.com </td>
+                <td>12 days ago </td>
+                <td>1 email </td>
+                <td>$4,997 </td>
+              </tr>
+              <tr>
+                <td> <div class="row"><div class="col-lg-7 pe-0">Alicia Puma</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>1 hour ago </td>
+                <td>Deal </td>
+                <td>84 </td>
+                <td>facebook.com </td>
+                <td>12 days ago </td>
+                <td>1 email </td>
+                <td>$4,997 </td>
+              </tr>
+              <tr>
+                <td> <div class="row"><div class="col-lg-7 pe-0">Gladys Kanyinda</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                    <td>48 minutes ago </td>
+                    <td>Deal </td>
+                    <td>96 </td>
+                    <td>instagram.com </td>
+                    <td>1 day ago </td>
+                    <td>0 emails </td>
+                    <td>$4,997 </td>
+                  </tr>
+                  <td> <div class="row"><div class="col-lg-7 pe-0">Yeray Rosales</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                  <td>48 minutes ago </td>
+                  <td>Contact </td>
+                  <td>TBD </td>
+                  <td>susiecarder.com </td>
+                  <td>23 hours ago </td>
+                  <td>0 emails </td>
+                  <td>0 emails </td>
+                </tr>
+                  <tr>
+                    <td> <div class="row"><div class="col-lg-7 pe-0">Gladys Kanyinda</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                        <td>48 minutes ago </td>
+                        <td>Deal </td>
+                        <td>96 </td>
+                        <td>instagram.com </td>
+                        <td>1 day ago </td>
+                        <td>0 emails </td>
+                        <td>$4,997 </td>
+                      </tr>
+                      <tr>
+                        <td> <div class="row"><div class="col-lg-7 pe-0">Edward Lindgren</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                        <td>36 minutes ago </td>
+                        <td>Contact </td>
+                        <td>TBD </td>
+                        <td>susiecarder.com </td>
+                        <td>3 hours ago </td>
+                        <td>0 emails </td>
+                        <td>$2,497 </td>
+                      </tr>
+                      
+                      <tr>
+                        <td> <div class="row"><div class="col-lg-7 pe-0">Gladys Kanyinda</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                            <td>48 minutes ago </td>
+                            <td>Deal </td>
+                            <td>96 </td>
+                            <td>instagram.com </td>
+                            <td>1 day ago </td>
+                            <td>0 emails </td>
+                            <td>$4,997 </td>
+                          </tr>
+                          <td> <div class="row"><div class="col-lg-7 pe-0">Yeray Rosales</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                          <td>48 minutes ago </td>
+                          <td>Contact </td>
+                          <td>TBD </td>
+                          <td>susiecarder.com </td>
+                          <td>23 hours ago </td>
+                          <td>0 emails </td>
+                          <td>0 emails </td>
+                        </tr>
+                          <tr>
+                            <td> <div class="row"><div class="col-lg-7 pe-0">Gladys Kanyinda</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                                <td>48 minutes ago </td>
+                                <td>Deal </td>
+                                <td>96 </td>
+                                <td>instagram.com </td>
+                                <td>1 day ago </td>
+                                <td>0 emails </td>
+                                <td>$4,997 </td>
+                              </tr>
+                              <tr>
+                                <tr>
+                                  <td> <div class="row"><div class="col-lg-7 pe-0">Edward Lindgren</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                                  <td>36 minutes ago </td>
+                                  <td>Contact </td>
+                                  <td>TBD </td>
+                                  <td>susiecarder.com </td>
+                                  <td>3 hours ago </td>
+                                  <td>0 emails </td>
+                                  <td>$2,497 </td>
+                                </tr>
+                                <td> <div class="row"><div class="col-lg-7 pe-0">Gladys Kanyinda</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                                    <td>48 minutes ago </td>
+                                    <td>Deal </td>
+                                    <td>96 </td>
+                                    <td>instagram.com </td>
+                                    <td>1 day ago </td>
+                                    <td>0 emails </td>
+                                    <td>$4,997 </td>
+                                  </tr>   
+                                  <tr>
+                                    <td> <div class="row"><div class="col-lg-7 pe-0">Edward Lindgren</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                                    <td>36 minutes ago </td>
+                                    <td>Contact </td>
+                                    <td>TBD </td>
+                                    <td>susiecarder.com </td>
+                                    <td>3 hours ago </td>
+                                    <td>0 emails </td>
+                                    <td>$2,497 </td>
+                                  </tr>          
+                                  <td> <div class="row"><div class="col-lg-7 pe-0">Yeray Rosales</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                                  <td>48 minutes ago </td>
+                                  <td>Contact </td>
+                                  <td>TBD </td>
+                                  <td>susiecarder.com </td>
+                                  <td>23 hours ago </td>
+                                  <td>0 emails </td>
+                                  <td>0 emails </td>
+                                </tr>
+                                <td> <div class="row"><div class="col-lg-7 pe-0">Yeray Rosales</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                                <td>48 minutes ago </td>
+                                <td>Contact </td>
+                                <td>TBD </td>
+                                <td>susiecarder.com </td>
+                                <td>23 hours ago </td>
+                                <td>0 emails </td>
+                                <td>0 emails </td>
+                              </tr>
+                               <td> <div class="row"><div class="col-lg-7 pe-0">Yeray Rosales</div> <div class="col-lg-5 "><div class="float-end"><i class="fas fa-envelope"></i> <i class="fas fa-phone"></i></div></div></div></td>
+                <td>48 minutes ago </td>
+                <td>Contact </td>
+                <td>TBD </td>
+                <td>susiecarder.com </td>
+                <td>23 hours ago </td>
+                <td>0 emails </td>
+                <td>0 emails </td>
+              </tr>      
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- right panel starts here -->
+    <div class="col-lg-2 col-md-2 right-panel">
+      <i class="fas fa-circle-question fa-lg text-white float-end m-1 p-1 opacity-25"></i>
+      <div class="pt-4 ps-2">
+        <nav>
+          <ul class="right-panel-li pb-4">
+            <li><a href="#" class="mb-3 text-white"><i class="fas fa-bag-shopping opacity-75"></i> Leads</a></li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Narrow
+                your results <i class="fas fa-chevron-down float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Lead <i
+                  class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Lead
+                Custom Fields <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Contact
+                Custom Fields <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Email
+                Activity <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Call
+                Activity <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> SMS
+                Activity <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Meeting
+                Activity <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false">
+                Communication <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Notes <i
+                  class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false">
+                Opportunities <i class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Tasks <i
+                  class="fas fa-chevron-right float-end "></i></a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+
+
+
+
+
+          </ul>
+        </nav>
+      </div>
+      <div class="pt-3 ps-2">
+        <nav>
+          <ul class="right-panel-search pb-4">
+            <li><a href="#" class="mb-3 text-white "> Smart views</a></li>
+            <div class="mx-3 mb-2">
+
+              <div class="form  align-items-center  ">
+                <div class="d-flex">
+                  <i class="fa fa-search "></i>
+                  <input type="search" class="form-control form-input " placeholder="Search ">
+                </div>
+              </div>
+            </div>
+            <li class="sub-menu dropdown"> <a href='#' class="text-white" data-bs-toggle="dropdown"
+                aria-expanded="false">Working Outbound Prospects </a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Working
+                Leads </a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Lead
+                Custom Fields </a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Working
+                Questionnaires </a>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Working
+                Qualified Questionnaires </a>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Working
+                No Shows </a>
+            <li class="sub-menu dropdown"> <a href='#' data-bs-toggle="dropdown" aria-expanded="false"> Working
+                Deposits/Trials </a>
+            <li class="sub-menu dropdown "> <a href='#' class="text-white text-decoration-underline"
+                data-bs-toggle="dropdown" aria-expanded="false"> Show All </a>
+              <ul id="subm" class="dropdown-menu"></ul>
+            </li>
+
+
+
+
+
+
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
